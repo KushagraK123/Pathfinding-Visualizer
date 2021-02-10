@@ -1,27 +1,21 @@
-# MazeVisualizer
+# PathfindingVisualizer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
 
-## Development server
+Welcome to Pathfinding Visualizer! This website lets us visualize some famous pathfinding algorithms.
+Live Demo :- https://kushagrak123.github.io/Pathfinding-Visualizer/
+## Algorithms Used
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Dijkstra's Algorithm
+(weighted): the father of pathfinding algorithms; guarantees the shortest path
 
-## Code scaffolding
+### A* Search 
+Weighted algorithm, uses heuristics function to find path, guarantees the shortest path.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Greedy Best-first Search
+Weighted algorithm a faster, more heuristic-heavy version of A*, which does not guarantee the shortest path
 
-## Build
+### Breadth First Search
+Unweighted algorithm, guarantees the shortest path
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Depth First Search
+Unweighted algorithm, does not guarantee the shortest path
